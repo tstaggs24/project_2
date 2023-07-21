@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-family: lilita one;
+  background-color: #432121 !important;
+  color: white;
+  font-size: 50px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  padding-top: 30px;
+}
+
+.flex-container {
+  display: flex;
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+
+.row {
+  margin-top: 45px;
+}
+
+#home {
+  display: flex;
+  flex-direction: row;
+}
+#home img {
+  width: 200%;
+  padding-top: 7vh;
+  padding-bottom: 2vh;
+  padding-right: 3vh;
+}
+
+h1 {
+  font-family: lilita one;
+  display: flex;
+  justify-content: center;
+  padding-top: 6vh;
+  padding-bottom: 1vh;
+  color: #432121;
+}
+
+p {
+  font-family: lilita one;
+  display: flex;
+  justify-content: space-around;
+  color: #432121;
+  padding-left: 1vh;
+}
+
+.bg {
+  background-color: #fff3b2;
+  background-image: url(images/patern.png);
+}
+
+h2 {
+  font-family: lilita one;
+  display: flex;
+  justify-content: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  color: #432121;
+}
+
+.review_img {
+  border-radius: 50%;
+  width: 10%;
+}
+
+.profiles {
+  display: flex;
+  align-items: center;
+  padding: 45px;
+}
+.reviews {
+  display: flex;
+  align-items: center;
+}
+
+.s {
+  padding-top: 1px;
+}
+
+.sp {
+  padding-top: 25px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-self: center;
+  background-color: #432121;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-self: center;
+  background-color: #432121;
+  width: 400px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topping {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image2 {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.about {
+  font-size: larger;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: row;
+  }
+
+  .review_img {
+    width: 20%;
+  }
+
+  .sp {
+    margin-top: 1vh;
+  }
+
+  .box2 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    background-color: #432121;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
